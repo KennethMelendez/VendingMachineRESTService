@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+
+@media only screen and (max-width: 600px) {
+    input{
+        width:100%;
+    }
+
+    .money-result{
+        padding:0;
+        margin:0;
+    }
+}
+
+*{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+}
+
+/* body {
+    background:url("https://78.media.tumblr.com/6cba264c712ef830002737edcb97bfa9/tumblr_nttxqaNesL1qac28vo1_400.png");
+} */
+
+.heading{
+    margin-top:5rem;
+}
+
+.logo{
+    font-size: 3rem;
+}
+
+.inventory{
+    padding:2rem;
+    margin:0.5rem;
+    border:2px solid grey;
+    border-radius: 40px;
+}
+
+.video-btn{
+    width:50px;
+    margin-bottom:30px;
+    margin-top:80px;
+}
+
+.video-btn:hover{
+    cursor:pointer;
+    position:relative;
+    bottom:10px;
+    transition:1s;
+}
+
+.inventory:hover{
+    position:relative;
+    bottom:5px;
+}
+
+.buttons{
+    margin-top: 0.1rem;
+    margin-right:0.1rem;
+    margin-bottom:0.1rem;
+}
+
+button{
+    width:100%;
+    height:5rem;
+    background:none;
+    border:0.5px solid black;
+    border-radius: 10px;
+    /* border:none; */
+}
+button:hover{
+    cursor:pointer;
+    background:black;
+    color:white;
+}
+
+.inventory:hover{
+    cursor:pointer;
+    /* background:black;
+    color:white; */
+}
+
+.display{
+    margin-bottom:0.5rem;
+}
+input{
+    text-align:center;
+    color:grey;
+    border:none;
+}
+
+.display-money{
+    /* padding:10px; */
+}
+
+/* change this for the width of the output */
+.align{
+    padding:0rem 4rem;
+}
+.message-box{
+    border:1px solid black;
+    margin-bottom:0.5rem;
+    font-size:1.2rem;
+    padding:1rem;
+}
+
+.make-purchase-button{
+    margin-top:0.5rem;
+}
+.change-output{
+    width:100%;
+    padding:0.6rem;
+}
+
+.purchase-btn{
+    background:black;
+    color:white;
+}
+
+.purchase-btn:hover{
+    color:red;
+}
+
+.money-result {
+    font-size: 5rem;
+    padding:0;
+    margin:0;
+}
+
+.item-input{
+    border:1px solid black;
+    padding:1rem;
+    font-size: 1rem;
+}
